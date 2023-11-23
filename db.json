@@ -1,9 +1,46 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "freelancers": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password",
+      "profession": "Web Developer",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "hourly_rate": 25,
+      "profile_picture": "profile1.jpg",
+      "isBooked": true
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "password",
+      "profession": "Graphic Designer",
+      "skills": [
+        "Photoshop",
+        "Illustrator"
+      ],
+      "hourly_rate": 30,
+      "profile_picture": "profile2.jpg",
+      "isBooked": true
+    },
+    {
+      "name": "Ishupriya Rath",
+      "email": "sonurath5989@gmail.com",
+      "password": "Asdf",
+      "profession": "Student",
+      "skills": [
+        "js"
+      ],
+      "hourly_rate": "500",
+      "profile_picture": {},
+      "isBooked": false,
+      "id": 3
+    }
+  ]
 }
